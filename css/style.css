@@ -1,0 +1,118 @@
+body.claro{
+  background-color: #ecdfcc;
+  font-family: Arial, sans-serif;
+  color: #1e201e;
+}
+body.escuro{
+  background-color: #1e201e;
+  font-family: Arial, sans-serif;
+  color: #ecdfcc;
+}
+
+
+a {
+  color: #1e201e;
+  font-size: large;
+  text-decoration: none;
+}
+
+p {
+  color: #1e201e;
+  font-size: large;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+.perfil {
+  padding: 20px;
+  border: 3px;
+  border-style:  solid;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 10px auto;
+  background-color: #3c3d37;
+  color: #ecdfcc; 
+}
+
+.perfil table {
+  text-align: center;
+  
+}
+
+.perfil p {
+  text-align: justify;
+  margin-left: 140px;
+  color: #ecdfcc;
+}
+
+#Icone_perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #1e201e;
+  margin-right: 40px;
+  object-fit: cover;
+}
+
+.girando {
+  animation: girar 8s linear 1;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.projetos {
+  margin: 0 15%;
+  padding: 1em;
+  padding-left: 10%;
+  text-align: justify;
+  border-style: solid;
+  border-radius: 35px;
+  background-color: #3c3d37;
+}
+
+.projetos td img {
+  width: 55px;
+}
+
+.projetos td p {
+  font-size: x-large;
+  color: #ecdfcc;
+
+}
+
+.habilidade {
+  display: block;
+  text-align: center;
+  margin: 10px 30%;
+  border-style: solid;
+  border-radius: 22px;
+  border-width: 2px;
+  background-color: #3c3d37;
+  color: #ecdfcc;
+}
+
+label td img {
+  margin-left: 75px;
+}
+
+#claro{
+  background-color: #ecdfcc;
+  padding: 3px;
+  border-radius: 100%;
+}
+#escuro{
+  background-color: #ecdfcc;
+  padding: 3px;
+  border-radius: 100%;
+}
