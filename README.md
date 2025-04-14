@@ -1,5 +1,5 @@
 
-# MEU PORTIÓFLIO 
+# MEU PORTIFÓLIO 
 
 ## Aqui diz algumas coisas sobre minhas abilidades e meus projetos
 
